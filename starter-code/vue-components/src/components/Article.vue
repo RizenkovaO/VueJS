@@ -25,6 +25,11 @@
 <style>
 .article-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 1rem;
+
 }
 
 .article-card {
@@ -39,6 +44,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     background: cover center no-repeat;
+    
 }
 
 .article-card:hover {
